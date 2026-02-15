@@ -8,7 +8,7 @@ namespace SeweralIdeas.ProjectVersion.Editor
     /// Settings for automatic version injection during builds.
     /// Uses ScriptableSingleton pattern for automatic serialization and persistence.
     /// </summary>
-    [FilePath("ProjectSettings/VersionSettings.asset", FilePathAttribute.Location.ProjectFolder)]
+    [FilePath("ProjectSettings/ProjectVersionSettings.asset", FilePathAttribute.Location.ProjectFolder)]
     public class VersionSettings : ScriptableSingleton<VersionSettings>
     {
         [SerializeField]
