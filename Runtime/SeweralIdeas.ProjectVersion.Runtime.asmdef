@@ -1,0 +1,14 @@
+{
+    "name": "SeweralIdeas.ProjectVersion.Runtime",
+    "rootNamespace": "SeweralIdeas.ProjectVersion",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,11 @@
+{
+  "name": "com.seweralideas.projectversion",
+  "version": "0.1.0",
+  "displayName": "Project Version",
+  "description": "Automatic git-based version parser for Unity projects. Automatically injects semantic version from git tags into Unity builds.",
+  "author":
+  {
+    "name": "Seweral Ideas",
+    "email": "seweralideas@gmail.com"
+  }
+}
