@@ -18,6 +18,8 @@ namespace SeweralIdeas.ProjectVersion
 
         [SerializeField]
         private UnityEvent<string> _onUpdate = new();
+
+        [SerializeField] private string? _prefix;
         
         protected void Start()
         {
@@ -39,7 +41,7 @@ namespace SeweralIdeas.ProjectVersion
         /// </summary>
         private string GetVersionText()
         {
-            string version = Application.version;
+            string version = _prefix+Application.version;
             return version;
         }
     }
